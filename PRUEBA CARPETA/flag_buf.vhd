@@ -1,6 +1,7 @@
 --COMEMMENT
 -- COMEMMENT 1
 -- COMEMMENT +
+-- COMEMMENT 2+
 
 
 library ieee; 
