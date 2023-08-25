@@ -3,6 +3,9 @@
 -- COMEMMENT +
 -- COMEMMENT 2+
 
+-- COMEMMENT APORTE
+
+
 
 library ieee; 
 use ieee.std_logic_1164.all; 
