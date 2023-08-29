@@ -11,18 +11,21 @@ Instalar el controlador del Joystick desde la pagina oficial de [ROS](http://wik
 
 ### Configuración e instalación de AutoMini
 
-Instalar el simulador de AutoMini desde el siguiente tutorial 
+Instalar el simulador de AutoMini desde el siguiente tutorial[.pdf](Documentos_de_instalación/Instalación_Simulador_GazeboAUTONOMOUS.pdf).
 
 ### Configuración del repositorio local   
 
-Clonar el repositorio de   AutoMini en simulación  mediante el Joystick
-Dirigirse al directorio donde se clonara el repositorio
+Clonar el repositorio de AutoMini_Joystick_
+Dirigirse al directorio local donde se clonara el repositorio
 En la terminal colocar
 
-
-Para verificar  el código que se instalo correctamente nos dirigimos a la ruta del repositorio local 
+```
+ $ git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
+```
+Para ver si el repositorio local está correctamente inicializado
 
 ```
+ $ cd  AutoMini_Joystick_/src
  $ rosrun principal joyop.py   
 ```
 
@@ -71,3 +74,29 @@ $ rosrun joy joy_node
         $ rosrun principal joyo.py
 
 Finalmente tendremos un entorno virtual en Gazebo y al pulsar un botón en el joystick este ejecutará cierto movimiento correspondiente.
+
+
+
+
+
+
+## PRUEB DE IMAG
+
+![SOC top](docs/doxygen/pics/soc_top_v5.png)
+
+
+## PRUEB DE DOC
+
+SoC documentation in [.pdf](docs/riscv_vhdl_trm.pdf) formats.
+
+
+
+
+
+
+
+
+
+
+
+
