@@ -33,14 +33,11 @@ source devel/setup.bash
 cd src/Vista
 rosrun Vista vista.py   
 ```
+Si al ejecutar el programa nos aparece algo similar a ese texto quiere decir que la configuración se realizó correctamente. . ([INFO] [1693334210.836545]: publishing image  ).
 
-Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando y nuevamente ejecutar terminal 2.
 
-```
-  $ sudo apt-get install ros-melodic-ackermann-msgs
-```
 
-##  Simulación AutoMini V2 con Joystick
+##  Simulación AutoMini V2 con Joystick con Vista en ventana flotante
 
 
 ### -Comandos en Terminal 1  – AutoNomoMini en simulador Gazebo -
