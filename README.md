@@ -23,7 +23,8 @@ git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git
 Para ver si el repositorio local está correctamente inicializado
 
 ```
-cd  AutoMini_Joystick_/src
+cd  AutoMini_Joystick_
+source devel/setup.bash
 rosrun principal joyop.py   
 ```
 
