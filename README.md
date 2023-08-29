@@ -28,9 +28,10 @@ roscore
 ```
 #### -Comandos en Terminal 2
 ```
-cd  AutoMini_Joystick_
+cd  AutoMini_Vista
 source devel/setup.bash
-rosrun principal joyop.py   
+cd src/Vista
+rosrun principal vista.py   
 ```
 
 Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando y nuevamente ejecutar terminal 2.
