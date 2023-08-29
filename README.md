@@ -77,12 +77,12 @@ Se debe abrir una nueva ventana de Gazebo con el automóvil y una pista.
 ### -Comandos en terminal 4 – Vista -
 
 
-- Dirigirse al  repositorio de AutoMini en simulación  mediante el Joystick el cual se  clonó previamente:
+- Dirigirse al  repositorio de AutoMini en simulación  mediante el Joystick con Vista el cual se  clonó previamente:
 
 ```
   source devel/setup.bash
-  cd src/principal/src 
-  rosrun principal joyop.py
+  cd src/Vista/src 
+  rosrun Vista vista.py
 ```
 
 Finalmente tendremos un entorno virtual en Gazebo y al pulsar un botón en el joystick este ejecutará cierto movimiento correspondiente.
