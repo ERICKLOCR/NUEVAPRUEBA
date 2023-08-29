@@ -33,7 +33,7 @@ source devel/setup.bash
 rosrun principal joyop.py   
 ```
 
-Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando 
+Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando y nuevamente ejecutar terminal 2.
 
 ```
   $ sudo apt-get install ros-melodic-ackermann-msgs
