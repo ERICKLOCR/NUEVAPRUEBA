@@ -72,7 +72,7 @@ Se debe abrir una nueva ventana de Gazebo con el automóvil y una pista.
 
 ```
   source devel/setup.bash
-  cd src/ 
+  cd src/principal/src 
   rosrun principal joyo.py
 ```
 Finalmente tendremos un entorno virtual en Gazebo y al pulsar un botón en el joystick este ejecutará cierto movimiento correspondiente.
