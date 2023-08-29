@@ -21,7 +21,12 @@ Clonar el repositorio de AutoMini_Joystick_ , dirigirse al directorio local dond
 git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
 ```
 Para ver si el repositorio local está correctamente inicializado
+### -Comandos en Terminal 1
 
+```
+roscore  
+```
+### -Comandos en Terminal 2
 ```
 cd  AutoMini_Joystick_
 source devel/setup.bash
