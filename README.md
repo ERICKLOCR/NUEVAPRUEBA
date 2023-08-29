@@ -46,15 +46,15 @@ Si al ejecutar el programa nos genera el error ( ImportError: No module named ac
 
  En el directorio AutoNOMOS_simulation 
 ```
-$ cd EK_AutoNOMOS_Sim/
-$ source devel/setup.bash
-$ cd src/principal/
+ cd EK_AutoNOMOS_Sim/
+ source devel/setup.bash
+ cd src/principal/
 ```
 
 Ejecute el siguiente comando(Para el simulador virtual ):
 
 ```
-$ roslaunch autonomos_gazebo_simulation curved_road.launch
+ roslaunch autonomos_gazebo_simulation curved_road.launch
 ```
 
 Se debe abrir una nueva ventana de Gazebo con el automóvil y una pista.
@@ -64,8 +64,8 @@ Se debe abrir una nueva ventana de Gazebo con el automóvil y una pista.
 
 “X:0,1,2” colocar el número de puerto:
 ```
-$ rosparam set joy_node/dev "/dev/input/jsX"
-$ rosrun joy joy_node                        
+ rosparam set joy_node/dev "/dev/input/jsX"
+ rosrun joy joy_node                        
 ```
 
   Se levanta el nodo joy
