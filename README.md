@@ -15,9 +15,7 @@ Instalar el simulador de AutoMini desde el siguiente tutorial[.pdf](Documentos_d
 
 ### Configuración del repositorio local   
 
-Clonar el repositorio de AutoMini_Joystick_
-Dirigirse al directorio local donde se clonara el repositorio
-En la terminal colocar
+Clonar el repositorio de AutoMini_Joystick_ , dirigirse al directorio local donde se clonara el repositorio, en la terminal colocar
 
 ```
  $ git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
