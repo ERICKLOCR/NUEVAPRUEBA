@@ -31,7 +31,7 @@ roscore
 cd  AutoMini_Vista
 source devel/setup.bash
 cd src/Vista
-rosrun principal vista.py   
+rosrun Vista vista.py   
 ```
 
 Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando y nuevamente ejecutar terminal 2.
