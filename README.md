@@ -44,16 +44,11 @@ Si al ejecutar el programa nos genera el error ( ImportError: No module named ac
 
 ### -Comandos en Terminal 1  – AutoNomoMini en simulador Gazebo -
 
- En el directorio AutoNOMOS_simulation 
+ En el directorio AutoNOMOS_simulation, ejecute el siguiente comando(Para el simulador virtual ):
+
 ```
  cd EK_AutoNOMOS_Sim/
  source devel/setup.bash
- cd src/principal/
-```
-
-Ejecute el siguiente comando(Para el simulador virtual ):
-
-```
  roslaunch autonomos_gazebo_simulation curved_road.launch
 ```
 
