@@ -57,9 +57,9 @@ Se debe abrir una nueva ventana de Gazebo con el automóvil y una pista.
 
 ### -Comandos en terminal 2 – Joystick node-
 
-“X:0,1,2” colocar el número de puerto:
+ /dev/input/jsX “X:0,1,2” colocar el número de puerto:
 ```
- rosparam set joy_node/dev "/dev/input/jsX"
+ rosparam set joy_node/dev "/dev/input/js0"
  rosrun joy joy_node                        
 ```
 
