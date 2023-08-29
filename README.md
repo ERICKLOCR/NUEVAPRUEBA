@@ -18,13 +18,13 @@ Instalar el simulador de AutoMini desde el siguiente tutorial[.pdf](Documentos_d
 Clonar el repositorio de AutoMini_Joystick_ , dirigirse al directorio local donde se clonara el repositorio, en la terminal colocar
 
 ```
- $ git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
+git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
 ```
 Para ver si el repositorio local está correctamente inicializado
 
 ```
- $ cd  AutoMini_Joystick_/src
- $ rosrun principal joyop.py   
+cd  AutoMini_Joystick_/src
+rosrun principal joyop.py   
 ```
 
 Si al ejecutar el programa nos genera el error ( ImportError: No module named ackermann_msgs.msg ) tenemos que ejecutar el siguiente comando 
