@@ -1,7 +1,7 @@
 
 
 
-# Simulación de AutoMini V2 mediante Gazebo controlado con Joystick
+# Simulación de AutoMini V2 mediante Gazebo visualizando una vista en una ventana flotante.
 
 ## Instalaciones adicionales
 
@@ -18,7 +18,7 @@ Instalar el simulador de AutoMini desde el siguiente tutorial[.pdf](Documentos_d
 Clonar el repositorio de AutoMini_Joystick_ , dirigirse al directorio local donde se clonara el repositorio, en la terminal colocar
 
 ```
-git clone https://github.com/FilibertoMartinez/AutoMini_Joystick_.git   
+git clone https://github.com/FilibertoMartinez/AutoMini_Vista.git   
 ```
 Para ver si el repositorio local está correctamente inicializado
 #### -Comandos en Terminal 1
