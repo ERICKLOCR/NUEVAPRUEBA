@@ -45,7 +45,7 @@ sudo apt install ros-melodic-slam-gmapping
 ```
 
 
-#                 Para abrir el entono virtual de sumulacion del Turtlebot3 en Gazebo
+#                 Para abrir el entorno virtual de sumulación del Turtlebot3 en Gazebo
 
 
 ##  Ejecutar Turtlebot en Gazebo
@@ -108,7 +108,7 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 #                 Mapeo el mundo
 
 
-## Para visualizar el mapeo en RZVIZ
+## Para visualizar el mapeo en RViz
 
 Ejecutar en una nueva terminal 
 ```
