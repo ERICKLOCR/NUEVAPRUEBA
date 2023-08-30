@@ -97,26 +97,6 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
 
-## -Comandos en nueva terminal  – Joystick node-
-
- /dev/input/jsX “X:0,1,2” colocar el número de puerto:
-```
- rosparam set joy_node/dev "/dev/input/js0"
- rosrun joy joy_node                        
-```
-
-  Se levanta el nodo joy
- 
-## -Comandos en nueva terminal – Teleoperación con joystick-
-
-
-- Dirigirse al  repositorio de AutoMini en simulación  mediante el Joystick el cual se  clonó previamente:
-
-```
-  source devel/setup.bash
-  cd src/principal/src 
-  rosrun principal joyop.py
-```
 
 
 
@@ -245,6 +225,26 @@ SoC documentation in [.pdf](docs/riscv_vhdl_trm.pdf) formats.
 
 
 
+## -Comandos en nueva terminal  – Joystick node-
+
+ /dev/input/jsX “X:0,1,2” colocar el número de puerto:
+```
+ rosparam set joy_node/dev "/dev/input/js0"
+ rosrun joy joy_node                        
+```
+
+  Se levanta el nodo joy
+ 
+## -Comandos en nueva terminal – Teleoperación con joystick-
+
+
+- Dirigirse al  repositorio de AutoMini en simulación  mediante el Joystick el cual se  clonó previamente:
+
+```
+  source devel/setup.bash
+  cd src/principal/src 
+  rosrun principal joyop.py
+```
 
 
 
