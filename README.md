@@ -53,6 +53,12 @@ export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_house.launch         
 ```
 
+#                 Forma de controlar al Turtlebot3 
+##  Se controlara al Turtlebot3 meiante teclado
+```
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
 
 
 ## -Comandos en nueva terminal  – Joystick node-
