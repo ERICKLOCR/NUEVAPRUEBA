@@ -38,6 +38,25 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 ```
 
 
+SLAM
+------------------------------------------------------
+instalar
+sudo apt install ros-noetic-slam-gmapping
+----------------------------------------------------------------
+roscore
+
+******************New Terminal ***********************
+```
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+******************New Terminal ***********************   ¡
+
+
+
+
+
+
 #                 Para abrir el entono virtual de sumulacion del Turtlebot3 en Gazebo
 
 
