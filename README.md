@@ -74,7 +74,7 @@ export TURTLEBOT3_MODEL=burger
   source devel/setup.bash
   cd src/principal/src 
   rosrun principal joyop.py
-
+```
 
 
 
