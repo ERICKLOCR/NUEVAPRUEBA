@@ -17,6 +17,13 @@ catkin_make
 
 ```
 
+########
+####
+##
+##
+
+
+
 
 
 Para verificar la instalación que todo este en orden verificamos 
