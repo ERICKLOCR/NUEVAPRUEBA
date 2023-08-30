@@ -78,8 +78,8 @@ export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_house.launch         
 ```
 
-#                 Forma de controlar al Turtlebot3 
-##  Se controlara al Turtlebot3 meiante teclado
+##                 Forma de controlar al Turtlebot3 
+###  Se controlara al Turtlebot3 meiante teclado
 ```
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
@@ -105,10 +105,10 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 
 
-#                 Mapeo el mundo
+##                 Mapeo el mundo
 
 
-## Para visualizar el mapeo en RViz
+### Para visualizar el mapeo en RViz
 
 Ejecutar en una nueva terminal 
 ```
