@@ -46,7 +46,7 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 Nos ubicamos en la cartepara de trabajo
 
 ```
-cd turtlebot3
+cd turtlebot3_ws
 ```
 
 Se puede elejir el model de robot a acargar ene l simulador eentre ellos se tiene model-> burger, waffle, waffle_pi
