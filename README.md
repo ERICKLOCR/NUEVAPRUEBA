@@ -17,10 +17,74 @@ catkin_make
 
 ```
 
-########
-####
+###
+###
 ##
 ##
+###
+###
+
+
+
+#                 Para abrir el entono virtual de sumulacion del Turtlebot3 en Gazebo
+
+
+##  Ejecutar Turtlebot en Gazebo
+```
+roscore
+cd ~/catkin_ws
+source ./devel/setup.bash
+```
+Se puede elejir el model de robot a acargar ene l simulador eentre ellos se tiene 
+model-> burger, waffle, waffle_pi
+
+Ahora para abrir tu espacio de tranajo en el semilador Gaseo podemos tener difeentes entornos entre ellos tenemos
+
+1. Lanza un espacio de trabajo turtlebot uncamente en un plano
+ ```
+export TURTLEBOT3_MODEL=burger
+  roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch     
+```
+2. Lanza un espacio de trabajo turtlebot uncamente en un plano
+```
+export TURTLEBOT3_MODEL=burger
+ roslaunch turtlebot3_gazebo turtlebot3_world.launch             <--- lanza un espacio de trabajo turtlebot 2
+```
+
+3. Lanza un espacio de trabajo turtlebot mostrando el interior de una casa
+   ```
+ export TURTLEBOT3_MODEL=burger
+   roslaunch turtlebot3_gazebo turtlebot3_house.launch         
+```
+
+
+
+
+
+
+
+
+
+
+### -Comandos en nueva terminal  – Joystick node-
+
+ /dev/input/jsX “X:0,1,2” colocar el número de puerto:
+```
+ rosparam set joy_node/dev "/dev/input/js0"
+ rosrun joy joy_node                        
+```
+
+  Se levanta el nodo joy
+ 
+### -Comandos en nueva terminal – Teleoperación con joystick-
+
+
+- Dirigirse al  repositorio de AutoMini en simulación  mediante el Joystick el cual se  clonó previamente:
+
+```
+  source devel/setup.bash
+  cd src/principal/src 
+  rosrun principal joyop.py
 
 
 
