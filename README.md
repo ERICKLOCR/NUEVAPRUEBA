@@ -45,7 +45,7 @@ sudo apt install ros-melodic-slam-gmapping
 ```
 
 
-#                 Para abrir el entorno virtual de sumulación del Turtlebot3 en Gazebo
+#                 Para abrir el entorno virtual de simulación del Turtlebot3 en Gazebo
 
 
 ##  Ejecutar Turtlebot en Gazebo
