@@ -48,13 +48,14 @@ export TURTLEBOT3_MODEL=burger
 2. Lanza un espacio de trabajo turtlebot uncamente en un plano
 ```
 export TURTLEBOT3_MODEL=burger
- roslaunch turtlebot3_gazebo turtlebot3_world.launch             <--- lanza un espacio de trabajo turtlebot 2
+ roslaunch turtlebot3_gazebo turtlebot3_world.launch           
 ```
 
 3. Lanza un espacio de trabajo turtlebot mostrando el interior de una casa
-   ```
+
+```
  export TURTLEBOT3_MODEL=burger
-   roslaunch turtlebot3_gazebo turtlebot3_house.launch         
+ roslaunch turtlebot3_gazebo turtlebot3_house.launch         
 ```
 
 
