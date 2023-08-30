@@ -98,7 +98,7 @@ Ejecutar en una nueva terminal
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
-
+Se mostrara una nueva ventana de RViz la cual mostrará el mapeo que el robot realizara mientras este, avanzá por el mundo.
 
 
 
