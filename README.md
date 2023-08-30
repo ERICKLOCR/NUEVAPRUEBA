@@ -17,6 +17,17 @@ catkin_make
 
 ```
 
+
+
+Para verificar la instalación que todo este en orden verificamos 
+(Tendra que aparecer el turtle2 en un espacio de trabajo )
+```
+cd  turtlebot2_ws
+source devel/setup.bash
+roslaunch turtlebot_stage turtlebot_in_stage.launch
+```
+
+
 ### Configuración e instalación del Joystick
 
 Instalar el controlador del Joystick desde la pagina oficial de [ROS](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick#Installing)
