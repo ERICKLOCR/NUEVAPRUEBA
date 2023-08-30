@@ -18,6 +18,26 @@ catkin_make
 ```
 
 
+#  Instalación del Turtlebot3 en ROS melodic(Ubuntu 18.04)
+
+
+
+
+Creamos nuestro workspace de trabajo 
+```
+mkdir turtlebot3_ws
+cd ~/turtlebot3_ws/
+mkdir src
+catkin_make
+```
+Nos ubicamos en la carpeta para clonar el repositorio
+
+```
+cd src
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+cd ~/catkin_ws && catkin_make
+```
 
 
 #                 Para abrir el entono virtual de sumulacion del Turtlebot3 en Gazebo
@@ -81,6 +101,8 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
   cd src/principal/src 
   rosrun principal joyop.py
 ```
+
+
 
 
 
