@@ -78,7 +78,7 @@ export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_house.launch         
 ```
 
-##                control del Turtlebot3 
+##                Control del Turtlebot3 
 ###  Se controlará al Turtlebot3 mediante teclado
 ```
 export TURTLEBOT3_MODEL=burger
