@@ -1,9 +1,21 @@
 
 
 
-# Simulación de AutoMini V2 mediante Gazebo visualizando una vista en una ventana flotante.
+#  Instalación del Turtlebot2 en ROS melodic(Ubuntu 18.04)
 
 ## Instalaciones adicionales
+
+
+```
+mkdir -p ~/turtlebot2_ws/src
+cd turtlebot2_ws
+catkin_make
+cd src
+curl -sLf https://raw.githubusercontent.com/gaunthan/Turtlebot2-On-Melodic/master/install_all.sh | bash
+cd ..
+catkin_make
+
+```
 
 ### Configuración e instalación del Joystick
 
