@@ -25,9 +25,8 @@ catkin_make
 
 Creamos nuestro workspace de trabajo 
 ```
-mkdir turtlebot3_ws
-cd ~/turtlebot3_ws/
-mkdir src
+mkdir -p ~/turtlebot3_ws/src
+cd ..
 catkin_make
 ```
 Nos ubicamos en la carpeta para clonar el repositorio
