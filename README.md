@@ -35,7 +35,6 @@ Nos ubicamos en la carpeta para clonar el repositorio
 cd src
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-cd ~/catkin_ws && catkin_make
 ```
 
 
