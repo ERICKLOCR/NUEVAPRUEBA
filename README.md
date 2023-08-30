@@ -119,11 +119,10 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 
 Para verificar la instalación que todo este en orden verificamos 
-(Tendra que aparecer el turtle2 en un espacio de trabajo )
+
 ```
-cd  turtlebot2_ws
-source devel/setup.bash
-roslaunch turtlebot_stage turtlebot_in_stage.launch
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 
 
