@@ -38,11 +38,11 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 ```
 
 
-SLAM
-------------------------------------------------------
 instalar
+```
 sudo apt install ros-noetic-slam-gmapping
-----------------------------------------------------------------
+```
+
 roscore
 
 ******************New Terminal ***********************
