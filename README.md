@@ -1,5 +1,22 @@
 
 
+# Configuración de conexión remota mediante  SSH entre JETSON y computadora
+
+Comentarios generales
+Para poder crear la conexión entre la computadora y la JETSON tenemos que tener claro que la IP cambian si es que no se tiene configurada una IP estática a lo que no no deja conectar en la siguiente conexión que se desea establecer. Primeramente se configuraran una IP estática tanto para la JETSON como para la computadora.
+    
+
+
+
+## Configuración de la IP estática de la computadora 
+ 
+Seleccionar la red a la que se desea conectar
+(Si no te deja conectar a la que deseas por que tienes varias redes confirmadas entrar a la configuración de esa red y colocar que no se conecte de manera automática para que te permita ingresar de manera automática a la que deseas )
+
+
+
+
+
 
 #  Instalación del Turtlebot2 en ROS melodic(Ubuntu 18.04)
 
